@@ -26,7 +26,7 @@ if [[ -e $CONF_FILE  ]]; then
 	debug "CONF_FILE: $CONF_FILE"
 	if [[ $CONF_FILE == *.yml || $CONF_FILE == *.yaml ]]; then
 		debug "YAML TYPE CONF FILE"
-		source $SCRIPT_PATH/yaml.sh
+		source $SCRIPT_PATH/bash-yaml/yaml.sh
 
 		if is_debug; then
 		    parse_yaml $CONF_FILE && echo
