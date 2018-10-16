@@ -12,7 +12,7 @@ debug() {
 SOURCE_PATH="/tmp/dotestow"
 DESTINATION_PATH="/tmp/backuptest"
 COPY_TYPE="rsync"
-DEST_PATTERN='as+%F-%A'
+DEST_PATTERN='%A'
 
 # DEFAULTS
 CURRENT_PATH="$(pwd -P)"
