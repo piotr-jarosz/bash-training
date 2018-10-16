@@ -7,19 +7,19 @@ This is first project to training bash skills
 Home backup script
 
 ### TODO: 
-* keeping 7 daily backups (including the current day) as history 
-* handle configuration file
 * handle parameters
 * override config file throught parameters
 
 
 ### Done
+* handle configuration sfile
 * use rsync to perform the actual backup.
 * offer a choice of tar or rsync.
 * copy to a folder named for the current day of the week
 * run once daily
 * use tar to perform the actual backup.
 * writing itself into the crontab if called with the correct arguments (while removing any instances of itself already in the crontab
+* keeping 7 daily backups (including the current day) as history 
 
 
 
